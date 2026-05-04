@@ -1,0 +1,151 @@
+@media (min-width: 400px) and (max-width: 600px) {
+    .navbar ul li a {
+        font-size: 1rem;
+    }
+
+    .intro {
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+    }
+
+    .profile_img,
+    .bio {
+        width: 100%;
+        height: auto;
+    }
+
+    .profile_img {
+        max-height: 300px;
+    }
+
+    .bio {
+        max-height: 200px;
+        align-items: center;
+        padding-bottom: 15px;
+    }
+
+    .bio button {
+        align-self: center;
+        margin-left: 0;
+    }
+
+    .about_title {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .line {
+        display: none;
+    }
+
+    .title {
+        width: 90%;
+        height: auto;
+        text-align: center;
+    }
+
+    .skill_intro,
+    .project_intro,
+    .service_intro {
+        width: 90%;
+    }
+
+    .project_box {
+        width: 50%;
+    }
+
+    .project_box img {
+        width: 60%;
+        height: auto;
+    }
+
+    .types {
+        width: 90%;
+        height: auto;
+        padding: 15px;
+    }
+
+    .contact-input {
+        width: 90%;
+    }
+
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+    .navbar ul li a {
+        font-size: 1.2rem;
+    }
+
+    .intro {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .profile_img,
+    .bio {
+        width: 100%;
+    }
+
+    .title {
+        width: 70%;
+    }
+
+    .skill_intro,
+    .project_intro,
+    .service_intro {
+        width: 80%;
+    }
+
+    .project_box {
+        width: 45%;
+    }
+
+    .project_box img {
+        width: 240px;
+        height: 130px;
+    }
+
+    .types {
+        width: 40%;
+        height: auto;
+    }
+
+    .types h2 {
+        font-size: 1.3rem;
+    }
+
+    .types p {
+        font-size: 0.8rem;
+    }
+}
+
+@media (min-width: 901px) and (max-width: 1200px) {
+
+    .project_box {
+        width: 300px;
+    }
+
+    .types {
+        width: 280px;
+    }
+
+    .skill_intro,
+    .project_intro,
+    .service_intro {
+        width: 70%;
+    }
+
+}
+
+@media (min-width: 1201px) {
+
+    .project_box {
+        width: 400px;
+    }
+
+    .types {
+        width: 300px;
+    }
+
+}
