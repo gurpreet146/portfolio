@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fiverr_Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="response.css">
+    <link rel="shortcut icon" href="images/portfolio_icon.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="container">
+        <header class="navbar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skill">Skill</a></li>
+                <li><a href="#projects">Project</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </header>
+        <section class="hero">
+            <div class="intro">
+                <div class="profile_img">
+                    <img src="https://th.bing.com/th/id/OIP.9lp-AzhvWVzYdKMb9E8tLQHaHs?w=160&h=180&c=7&r=0&o=7&pid=1.7&rm=3"
+                        alt="">
+                </div>
+                <div class="bio">
+                    <h3>Hi, I am </h3>
+                    <h1>Gurpreet Singh</h1>
+                    <p>I build responsive and modern websites using HTML, CSS & JavaScript, focusing on clean design,
+                        fast performance, user-friendly interfaces, and mobile-first development to create engaging,
+                        scalable, and appealing web experiences..
+                    </p>
+                    <button onclick="location.href='#about'">Explore
+                        More</button><!--on click it take to about section)-->
+                </div>
+            </div>
+        </section>
+        <section class="about" id="about">
+            <div class="about_title">
+                <div class="line"></div><!--for creating a white line only in left side of the text.-->
+                <div class="title">
+                    <h1>About Me</h1>
+                    <p>I create responsive and modern frontend websites using HTML, CSS, and JavaScript. My work
+                        includes building portfolio websites, clean and engaging landing pages, and fixing basic
+                        frontend issues. <span id="hid_about_text" style="display: none;">I focus on writing
+                            well-structured code, ensuring
+                            mobile-friendly design,
+                            and delivering smooth, user-friendly web experiences.</span>
+                    </p>
+                    <button onclick="show_text()" id="button_text">Read
+                        More</button><!--on read more click show span-tag text until hid (if it changed then edit this comment) IMPORTANT-->
+                </div>
+            </div>
+        </section>
+        <section class="skills" id="skill">
+            <div class="skill_intro">
+                <h1>My Skill</h1>
+                <p>I build responsive and modern frontend websites using HTML, CSS, and JavaScript. From landing pages
+                    to portfolio sites, I focus on clean design and user experience, with basic design support using
+                    Canva.</p>
+            </div>
+            <div class="skill_types">
+                <h1>Technical Skills</h1>
+                <div class="services">
+                    <div class="service-box">
+                        <img src="images\37-375449_cems-responsive-web-design-icon.png" alt="">
+                        <h3>Responsive Website Design</h3>
+                        <p>I create websites that work smoothly on mobile, tablet, and desktop.</p>
+                    </div>
+                    <div class="service-box">
+                        <img src="images\pngtree-landing-page-icon-flat-design-site-template-flat-vector-png-image_23366238.png"
+                            alt="">
+                        <h3>Landing Page Development</h3>
+                        <p>Modern and high-converting landing pages for products and businesses.</p>
+                    </div>
+                    <div class="service-box">
+                        <img src="images\154-1545314_portfolio-icon-png.png" alt="">
+                        <h3>Portfolio Websites</h3>
+                        <p>Clean and professional personal portfolio websites.</p>
+                    </div>
+                    <div class="service-box">
+                        <img src="images\canva-logo-app-freelogovectors.net_.png" alt="">
+                        <h3>UI Design (Canva)</h3>
+                        <p>Simple and attractive UI designs using Canva.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="project" id="projects">
+            <div class="project_intro">
+                <h1>My Projects</h1>
+                <p>A collection of projects built using HTML, CSS, and JavaScript, showcasing my skills in creating
+                    responsive and user-friendly websites.</p>
+            </div>
+            <div class="project_types">
+                <div class="project_box">
+                    <img src="images/GYM_landing_page.png" alt="">
+                    <h3>GYM Landing Page</h3>
+                    <p>
+                        A modern and responsive gym website landing page built using HTML, CSS, and JavaScript,
+                        featuring sections like services and contact.
+                    </p>
+                    <button class="View"><a href="https://gurpreet146.github.io/FitGym_Basic_site/"
+                            target="_blank">View</a></button>
+                </div>
+                <div class="project_box">
+                    <img src="images/bird_project.png" alt="">
+                    <h3>single page portfolio</h3>
+                    <p>
+                        A modern, responsive single-page Bird Life landing page built using HTML, CSS, and JavaScript,
+                        showcasing my projects, skills, and contact information.
+                    </p>
+                    <button class="View"><a href="https://gurpreet146.github.io/bird_life_bio/"
+                            target="_blank">View</a></button>
+                </div>
+            </div>
+        </section>
+        <section class="service" id="services">
+            <div class="service_intro">
+                <h1>Services</h1>
+                <p>Need a website that looks great and works smoothly? I provide basic web design, bug fixing, and
+                    complete portfolio website development—both single-page and multi-page. My goal is to deliver fast,
+                    responsive, and visually appealing websites that meet your expectations.</p>
+            </div>
+            <div class="service_types">
+                <div class="types">
+                    <img src="images\bug-fix-icon-monochrome-simple-web-design-icon-for-templates-web-design-and-infographics-2JWK073.jpg"
+                        alt="">
+                    <h2>Bug Fixing</h2>
+                    <p>Get your website bugs fixed at an affordable starting price. I handle HTML, CSS, and JavaScript
+                        issues such as broken layouts, responsiveness problems, and minor errors to make your site run
+                        smoothly.</p>
+                </div>
+                <div class="types">
+                    <img src="images\pngtree-landing-page-icon-flat-design-site-template-flat-vector-png-image_23366238.png"
+                        alt="">
+                    <h2>Responsive Landing Page</h2>
+                    <p>I offer affordable web design starting at low Fiverr rates. From fixing website issues to
+                        building responsive single or multi-page sites using HTML, CSS, and JavaScript, I ensure clean,
+                        user-friendly performance.
+                    </p>
+                </div>
+                <div class="types">
+                    <img src="images\154-1545314_portfolio-icon-png.png" alt="">
+                    <h2>Responsive Portfolio</h2>
+                    <p>I create modern, responsive single or multi-page portfolio websites using HTML, CSS, and
+                        JavaScript. Starting at the lowest Fiverr price, I deliver clean design, smooth performance, and
+                        professional layouts tailored to your needs.</p>
+                </div>
+            </div>
+        </section>
+        <section class="contact" id="contact">
+            <div class="form-title">
+                <h1>Get in touch</h1>
+            </div>
+            <form action="" class="form" onsubmit="handleSubmit(event)">
+
+                <input type="text" name="name" placeholder="Enter Your Name" class="contact-input" required>
+                <input type="email" name="email" placeholder="Enter Your Email" class="contact-input" required>
+                <textarea name="message" placeholder="Enter Your Message" class="contact-input" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </div>
+    <div class="container2" id="successBox">
+        <div class="message_box">
+            <h2>Thank You!</h2>
+            <p>Your message has been sent successfully.</p>
+            <button onclick="closeMessage()">Close</button>
+        </div>
+    </div>
+    <script src="portfolio.js"></script>
+</body>
+
+</html>
